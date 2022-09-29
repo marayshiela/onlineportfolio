@@ -1,0 +1,550 @@
+body{
+  margin:0;
+  padding:0;
+}
+.container-fluid {
+  padding: 8% 7% 7% 8%;
+}
+#welcome-section{
+  margin: 0;
+  background-image: url("images/code-bg.png");
+  background-color: #424874;
+}
+
+/* Title Image */
+#title-image {
+width: 80%;
+position: relative;
+text-align: center;
+left:50px;
+}
+
+.image-col{
+  margin: auto;
+}
+
+.intro{
+  font-size: 20px;
+  font-family: Montserrat;
+  padding-top:30%;
+  text-align: center;
+  color:#F4EEFF;
+}
+
+.name{
+  font-size: 70px;
+  font-family: Open sans;
+  text-align: center;
+  color:#ffc93b;
+}
+.pos-title{
+font-size: 20px;
+font-family: Montserrat;
+text-align: center;
+color:#F4EEFF;
+}
+/*---- carousel ---*/
+#skills{
+margin:0;
+padding-bottom: 30px;
+}
+.skills-expertise{
+  padding-top:50px;
+}
+
+.tbl1 li{
+  text-align: center;
+  list-style-type: none;
+  font-size: 18px;
+  text-align: left;
+  padding:5px;
+}
+.tbl1 ul{
+  padding-left:150px;
+}
+.tbl1 i{
+font-size: 30px;
+padding: 0 20px;
+}
+.tbl1 h3{
+text-align: left;
+font-family: Open sans;
+font-weight: bold;
+font-size: 24px;
+padding:10px 0;
+}
+.tbl2 li{
+  list-style-type: none;
+  font-size: 18px;
+  text-align: left;
+  padding:5px 0;
+}
+
+.tbl2 img{
+  margin-right:20px;
+}
+
+.tbl2 h3{
+  text-align: left;
+  font-family: Open sans;
+  font-weight: bold;
+  font-size: 24px;
+  padding:10px 0;
+}
+
+
+/*---certifications ---*/
+.certifications{
+    height:auto;
+    margin:100px;
+    padding:10px;
+    }
+.certifications h2{
+  font-size:30px;
+  font-family: Open sans;
+  font-weight: bold;
+}
+.certifications h3{
+    padding:20px 0;
+    font-size: 28px;
+    font-family: Open sans;
+}
+.training1, .training2{
+  padding-left: 50px;
+}
+.certifications h4{
+    font-size:18px;
+    font-weight:bold;
+
+}
+.training-host{
+  line-height:1;
+  font-size:16px;
+}
+.training-date{
+font-style:italic;
+font-size:16px;
+line-height:1.8px;
+padding-bottom:30px;
+}
+/*--- WORK EXPERIENCE ----*/
+.work-experience h3{
+font-size:20px;
+color: #424874;
+}
+.work-experience h2{
+font-size:28px;
+font-family: Open sans;
+color: #151442;
+}
+.work-Office{
+font-weight:bold;
+font-style:italic;
+}
+
+.work-period{
+font-size:16px;
+}
+.work-experience{
+line-height:1;
+margin: 50px 150px;
+padding:50px 0;
+}
+
+.duties{
+line-height:1.5;
+padding-bottom: 20px;
+text-align:left;
+padding-right:50px;
+}
+
+
+/*--- END OF WORK EXPERIENCE ----*/
+/*---projects ---*/
+#projects{
+margin:0;
+background-color:#DCD6F7;
+}
+
+#contact h1{
+font-size:70px;
+text-align:center;
+color:#F4EEFF;
+}
+
+#contact i{
+padding:0 5px;
+}
+.contact-list{
+padding-top:100px;
+text-align: center;
+}
+hr{
+margin-top:150px;
+padding:2px;
+background-color: #151442;
+}
+/*---- projects---*/
+.modal-projects {
+padding:80px 0;
+width:100%
+}
+
+.subtitle {
+color:#F4EEFF;
+padding:5px 0;
+background-color: #424874;
+font-family: Open sans;
+width:250px;
+margin: auto;
+}
+
+.col{
+padding:20px 0;
+}
+.subtitle:nth-child(1) {
+  width:400px;
+}
+.project-header p{
+font-family: Montserrat;
+font-weight: bold;
+font-size: 42px;
+Color:#151442;
+}
+.container-lg{
+  width:90%;
+  margin:auto;
+}
+.line{
+  width:100%;
+  height:5px;
+  margin:20px 0;
+  background-color: #151442;
+}
+
+.cols{
+  text-align: center;
+  padding:10px;
+  margin:auto;
+}
+
+#footer-div{
+text-align: center;
+color:#7F90A1;
+}
+#footer-div h5{
+font-size: 16px;
+padding:0 5px;
+}
+#footer-div i{
+font-size:12px;
+color:#7F90A1;
+}
+
+.profile-link a{
+  color:#F4EEFF;
+  font-size: 25px;
+}
+
+.container-footer{
+  background-color:  #424874;
+}
+
+.contact-header{
+  margin:50px 0 80px 0;
+}
+.copyright-div{
+  padding:30px 0;
+}
+/*--- end of projects ---*/
+
+.navbar{
+background-color:#151442;
+position:fixed;
+}
+.navbar-nav{
+padding-left: 70%;
+}
+.navbar-item{
+text-align: right;
+padding-right: 50px;
+font-family: Montserrat;
+font-size: 14px;
+}
+
+
+/*--About Me --*/
+.aboutme-part{
+margin:50px 50px;
+}
+.aboutme-part h2, q{
+text-align: center;
+font-family: Open sans;
+color: #424874;
+}
+.aboutme-part img{
+width:100%;
+max-width: 500px;
+height:auto;
+}
+.aboutme-part li{
+font-size: 16px;
+padding: 5px;
+}
+.aboutme-part ul{
+padding: 20px 0;
+}
+.aboutme-part img{
+  padding:50px 0;
+}
+.aboutme-text{
+  max-width: 400px;
+  padding:50px 10px;
+}
+/*--End of About Me --*/
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+.modal-projects {
+background-color: #DCD6F7;
+height: auto;
+clear: both;
+text-align: center;
+}
+.container{
+width:300px;
+}
+.container-fluid {
+padding: 7% 7%;
+}
+#title .container-fluid {
+padding: 3% 15% 7%;;
+}
+.intro{
+  padding-top:10%
+}
+#contact{
+  background-color:  #424874;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+#contact h1{
+  font-size:30px;
+}
+
+.container-fluid {
+  padding: 8% 7% 7% 8%;
+}
+.name{
+  font-size: 50px;
+}
+.pos-title{
+font-size: 18px;
+}
+.intro{
+  font-size: 18px;
+}
+
+#skills{
+  padding-left:5px;
+
+}
+.tbl1 ul{
+  padding-left: 50px;
+}
+.tbl1 .tbl2 h3{
+  margin-left: 50px;
+}
+.certifications{
+    margin:50px;
+    }
+.work-experience{
+margin: 50px 50px;
+}
+.project-header p{
+font-size: 22px;
+}
+.profile-link a{
+  font-size: 16px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 380px) {
+    .modal-projects {
+    background-color: #DCD6F7;
+    height: auto;
+    clear: both;
+    text-align: center;
+}
+.intro{
+  padding-top:5%
+}
+#contact h1{
+  font-size:30px;
+}
+
+.tbl1 .tbl2 ul{
+  padding-left:50px;
+}
+.tbl1 .tbl2 h3{
+  margin-left: 100px;
+}
+.certifications{
+    margin:50px;
+}
+.work-experience{
+margin: 50px 50px;
+}
+.project-header p{
+font-size: 22px;
+}
+.profile-link a{
+  font-size: 16px;
+}
+}/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .modal-projects {
+    background-color: #DCD6F7;
+    height: auto;
+    clear: both;
+    text-align: center;
+}
+.intro{
+  padding-top:5%
+}
+#contact h1{
+  font-size:30px;
+}
+
+.tbl1 ul{
+  padding-left:50px;
+}
+.tbl1 h3{
+  margin-left: 100px;
+}
+.certifications{
+    margin:50px;
+  }
+    .work-experience{
+    margin: 50px 50px;
+}
+.project-header p{
+      font-size: 22px;
+}
+.profile-link a{
+  font-size: 16px;
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  /* your mobile css, change this as you please */
+  .modal-projects {
+        background-color: #DCD6F7;
+        height: auto;
+      clear: both;
+      text-align: center;
+  }
+  .container{
+    width:50%;
+  }
+  .intro{
+    padding-top:5%
+  }
+  .tbl1 .tbl2 ul{
+    padding-left:30px;
+  }
+  .tbl1 .tbl2 h3{
+    margin-left: 100px;
+  }
+  .navbar-nav{
+    padding-left: 50%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 980px) {
+.modal-projects {
+background-color: #DCD6F7;
+height: auto;
+clear: both;
+text-align: center;
+}
+.intro{
+  padding-top:25%
+}
+.tbl1 .tbl2 h3{
+  margin-left: 100px;
+}
+.navbar-nav{
+  padding-left: 60%;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  /* your desktop css */
+  .modal-projects {
+      background-color: #DCD6F7;
+      height: auto;
+      clear: both;
+      text-align: center;
+  }
+  .container{
+    width:auto;
+  }
+  #contact{
+    width:100%;
+    height:100vh;
+    background-color:  #424874;
+    padding-top:100px;
+  }
+  #contact h1{
+    font-size:70px;
+  }
+.intro{
+  padding-top:30%;
+  font-size: 20px;
+}
+.name{
+  font-size: 70px;
+}
+.pos-title{
+font-size: 20px;
+}
+.tbl1 h3{
+  margin-left: 170px;
+}
+.tbl1 ul{
+  padding-left: 130px;
+}
+.certifications{
+    margin:100px;
+}
+.work-experience{
+ margin: 50px 150px;
+}
+.project-header p{
+font-size: 42px;
+}
+.navbar-nav{
+  padding-left: 70%;
+}
+.profile-link a{
+  font-size: 25px;
+}
+}
+
+/*------------------------------------*/
+
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
